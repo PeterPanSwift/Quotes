@@ -49,7 +49,6 @@ class SampleData {
             context.insert(book)
         }
 
-        // 設置一些關聯關係
         Quote.sampleData[0].fromBook = Book.sampleData[0]
         Quote.sampleData[1].fromBook = Book.sampleData[1]
     }
